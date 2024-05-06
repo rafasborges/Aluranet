@@ -24,5 +24,20 @@ body{
 }
 
 .conteiner{
-    height: 100vh; /* Para ocupar toda a tela dos dispositivos*/ 
+    height: 100vh; /* Para ocupar toda a tela dos dispositivos*/
+    display: grid; 
+    grid-template-columns: 50% 50%;
+}
+.conteiner__botao{
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 5px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+
+}
+.botao__secundario{
+    border: 2px solid var(--branco-principal);
+    background-color: transparent;
 }
